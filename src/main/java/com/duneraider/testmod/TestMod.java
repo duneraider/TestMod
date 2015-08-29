@@ -2,6 +2,7 @@ package com.duneraider.testmod;
 
 
 import com.duneraider.testmod.handler.ConfigurationHandler;
+import com.duneraider.testmod.init.ModBlocks;
 import com.duneraider.testmod.init.ModItems;
 import com.duneraider.testmod.proxy.IProxy;
 import com.duneraider.testmod.reference.Reference;
@@ -29,6 +30,8 @@ public class TestMod
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
         ModItems.init();
+
+        ModBlocks.init();
 
         LogHelper.info("Pre-Initialization complete!");
 
