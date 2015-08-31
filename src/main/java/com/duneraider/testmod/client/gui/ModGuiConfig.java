@@ -1,4 +1,5 @@
 package com.duneraider.testmod.client.gui;
+
 import com.duneraider.testmod.handler.ConfigurationHandler;
 import com.duneraider.testmod.reference.Reference;
 import cpw.mods.fml.client.config.GuiConfig;

@@ -1,5 +1,8 @@
-# Items
+#Items
 item.testmod:cupOfTea.name=Cup of Tea
 
 #Blocks
 tile.testmod:flag.name=Flag of Bees
+
+#Creative Tabs
+itemGroup.testmod=Test Mod

@@ -1,5 +1,6 @@
 package com.duneraider.testmod.item;
 
+import com.duneraider.testmod.creativetab.CreativeTabTestMod;
 import com.duneraider.testmod.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class ItemTestMod extends Item
     public ItemTestMod()
     {
         super();
+        this.setCreativeTab(CreativeTabTestMod.TESTMOD_TAB);
     }
 
     @Override

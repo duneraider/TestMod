@@ -6,5 +6,6 @@ public class ItemCupOfTea extends ItemTestMod
     {
         super();
         this.setUnlocalizedName("cupOfTea");
+
     }
 }

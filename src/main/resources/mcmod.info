@@ -2,7 +2,7 @@
 {
   "modid": "TestMod",
   "name": "Test Mod",
-  "description": "dune's first Minecraft mod!",
+  "description": "dune's first Minecraft Mod!",
   "version": "1.0",
   "mcversion": "1.7.10",
   "url": "",
@@ -10,7 +10,7 @@
   "authorList": [
     "duneraider"
   ],
-  "credits": "To Pahimar's Let's Mod series!",
+  "credits": "To Pahimar and his Let's Mod series!",
   "logoFile": "",
   "screenshots": [
   ],

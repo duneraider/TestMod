@@ -1,5 +1,6 @@
 package com.duneraider.testmod.block;
 
+import com.duneraider.testmod.creativetab.CreativeTabTestMod;
 import com.duneraider.testmod.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class BlockTestMod extends Block
     public BlockTestMod(Material material)
     {
         super(material);
+        this.setCreativeTab(CreativeTabTestMod.TESTMOD_TAB);
     }
 
     public BlockTestMod()
