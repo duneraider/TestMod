@@ -2,10 +2,10 @@ package com.duneraider.testmod.item;
 
 public class ItemCupOfTea extends ItemTestMod
 {
-    public ItemCupOfTea()
+    public ItemCupOfTea(String itemName)
     {
-        super();
-        this.setUnlocalizedName("cupOfTea");
+        super(itemName);
+        this.setUnlocalizedName(itemName);
 
     }
 }

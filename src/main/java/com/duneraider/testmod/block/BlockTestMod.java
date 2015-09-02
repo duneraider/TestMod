@@ -10,15 +10,22 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 
 public class BlockTestMod extends Block
 {
-    public BlockTestMod(Material material)
+    public BlockTestMod(Material material, String blockName)
     {
         super(material);
+        this.setBlockName(blockName);
+        this.setBlockTextureName(Reference.MOD_ID + ":" + blockName);
         this.setCreativeTab(CreativeTabTestMod.TESTMOD_TAB);
+    }
+
+    public BlockTestMod(String blockName)
+    {
+        this(Material.rock, blockName);
     }
 
     public BlockTestMod()
     {
-        this(Material.rock);
+        this(Material.rock, null);
     }
 
     @Override

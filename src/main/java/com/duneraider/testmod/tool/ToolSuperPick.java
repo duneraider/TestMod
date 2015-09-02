@@ -1,20 +1,20 @@
-package com.duneraider.testmod.item;
+package com.duneraider.testmod.tool;
 
 import com.duneraider.testmod.creativetab.CreativeTabTestMod;
 import com.duneraider.testmod.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemStack;
 
-public class ItemTestMod extends Item
+public class ToolSuperPick extends ItemPickaxe
 {
-    public ItemTestMod(String itemName)
+    public ToolSuperPick(ToolMaterial toolMaterial, String toolName)
     {
-        super();
-        this.setUnlocalizedName(itemName);
-        this.setTextureName(Reference.MOD_ID + ":" + itemName);
+        super(toolMaterial);
+        this.setUnlocalizedName(toolName);
+        this.setTextureName(Reference.MOD_ID + ":" + toolName);
         this.setCreativeTab(CreativeTabTestMod.TESTMOD_TAB);
     }
 
@@ -41,4 +41,5 @@ public class ItemTestMod extends Item
     {
         return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
     }
+
 }

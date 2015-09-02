@@ -1,8 +1,17 @@
 #Items
 item.testmod:cupOfTea.name=Cup of Tea
+item.testmod:teaBag.name=Tea Bag
+
+#Tools
+item.testmod:superPick.name=Super Pickaxe
 
 #Blocks
 tile.testmod:flag.name=Flag of Bees
 
 #Creative Tabs
 itemGroup.testmod=Test Mod
+
+#Keys
+keys.testmod.category=Test Mod
+keys.testmod.charge=Charge
+keys.testmod.release=Release
