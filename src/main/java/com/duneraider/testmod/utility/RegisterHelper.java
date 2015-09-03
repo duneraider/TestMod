@@ -2,8 +2,8 @@ package com.duneraider.testmod.utility;
 
 import com.duneraider.testmod.block.BlockTestMod;
 import com.duneraider.testmod.item.ItemTestMod;
+import com.duneraider.testmod.tool.ToolTestMod;
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.item.ItemTool;
 
 public class RegisterHelper
 {
@@ -17,9 +17,8 @@ public class RegisterHelper
         GameRegistry.registerBlock(block, block.getUnlocalizedName().substring(block.getUnlocalizedName().indexOf(":") + 1));
     }
 
-    public static void registerTools(ItemTool tool)
+    public static void registerTools(ToolTestMod tool)
     {
-        LogHelper.info(tool.getUnlocalizedName());
         GameRegistry.registerItem(tool, tool.getUnlocalizedName().substring(tool.getUnlocalizedName().indexOf(":") + 1));
     }
 }
